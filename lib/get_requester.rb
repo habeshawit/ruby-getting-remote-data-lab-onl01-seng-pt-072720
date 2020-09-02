@@ -10,7 +10,8 @@ class GetRequester
   end
   
   def get_response_body 
-    uri = uri.parse(url)
+    uri = URI.parse(url)
+    
     
     response.body 
   end
