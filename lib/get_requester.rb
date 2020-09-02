@@ -1,5 +1,9 @@
+require 'open-uri'
+require 'json'
+
+
 class GetRequester
-  require
+
   
   def initialize(url) 
     @url = url
