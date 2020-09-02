@@ -3,7 +3,7 @@ require 'open-uri'
 require 'json'
 
 class GetRequester
-
+  attr_reader :uri
   
   def initialize(url) 
     @url = url
